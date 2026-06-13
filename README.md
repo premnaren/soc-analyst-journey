@@ -4,13 +4,13 @@ A structured documentation repository tracking my professional development towar
 
 ## 📈 30-Day Progress Dashboard
 
-| Phase | Focus Area | Days | Status |
-| :--- | :--- | :--- | :--- |
-| **Phase 1** | Core Networking & OS Telemetry | Days 01–09 | 🔄 In Progress |
-| **Phase 2** | SIEM Processing & SPL Query Mastery | Days 10–16 | ⏳ Pending |
-| **Phase 3** | Attack Lifecycles & Threat Intelligence | Days 17–22 | ⏳ Pending |
-| **Phase 4** | Live SOC Incident Triage Simulations | Days 23–29 | ⏳ Pending |
-| **Phase 5** | Consolidation & Certification Challenge | Day 30 | ⏳ Pending |
+| Phase | Focus Area | Status |
+| :--- | :--- | :--- |
+| **Phase 1** | Core Networking & OS Telemetry | 🔄 In Progress |
+| **Phase 2** | SIEM Processing & SPL Query Mastery | ⏳ Pending |
+| **Phase 3** | Attack Lifecycles & Threat Intelligence | ⏳ Pending |
+| **Phase 4** | Live SOC Incident Triage Simulations | ⏳ Pending |
+| **Phase 5** | Consolidation & Certification Challenge | ⏳ Pending |
 
 ---
 
