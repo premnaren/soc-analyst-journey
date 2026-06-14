@@ -44,4 +44,32 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** [NetworkChuck FREE CCNA Course](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
 
+### Day 03 — 2026-06-14
+**Topic:** Routers, TCP/IP stack & OSI model
+
+**What I learned:**
+- How a **router** works — connects different networks, operates at **Layer 3 (Network)** using **IP addresses**
+- Router vs Switch — switch moves frames within a LAN (MAC), router moves packets between networks (IP)
+- using router CLI commands to see the routing
+- The **OSI model** — 7 layers and what each does:
+  | Layer | Name |
+  |-------|------|
+  | 7 | Application |
+  | 6 | Presentation |
+  | 5 | Session |
+  | 4 | Transport |
+  | 3 | Network |
+  | 2 | Data Link |
+  | 1 | Physical |
+- **TCP/IP model** — the real-world 4-layer version of OSI:
+  | TCP/IP Layer |
+  |-------------|
+  | Application |
+  | Transport |
+  | Internet |
+  | Network Access |
+
+**Resource:** [NetworkChuck FREE CCNA Course](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
+
+---
 ---
