@@ -71,5 +71,38 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** [NetworkChuck FREE CCNA Course](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
 
----
+### Day 04 — 2026-06-15
+**Topic:** Python fundamentals & Linux basics
+
+**What I learned:**
+
+**Python:**
+- Core functions — `print()`, `input()`, `type()`, type casting
+- Built a coffee shop program — greets customer, takes order, calculates total cost
+- Understanding how Python reads and processes user input
+
+**Linux:**
+- History and philosophy of Linux — why everything is a file
+- The CLI (Command Line Interface) — why it matters for security work
+- Essential commands learned:
+  | Command | What it does |
+  |---------|-------------|
+  | `pwd` | print current directory |
+  | `ls` | list files and folders |
+  | `cd` | change directory |
+  | `cat` | read file contents |
+  | `cp` | copy files |
+  | `rm` | remove files |
+  | `whoami` | show current user |
+  | `which` | find location of a program |
+  | `adduser` | create a new user |
+- Linux directory structure — `/`, `/home`, `/etc`, `/var`, `/root`, `/bin`, `/sbin`
+- The **root user** — superuser with full system access, why it matters in security
+
+**Tools used:** VS Code (Python), HackTheBox — Linux Fundamentals module
+
+**Key takeaway:** In Linux, everything is a file — even hardware devices and running processes. This is why Linux log analysis is so powerful for SOC work: attacker activity always leaves traces in the filesystem.
+
+**Resource:** [NetworkChuck – Python RIGHT NOW!!] · [NetworkChuck – Linux for Hackers]
+
 ---
