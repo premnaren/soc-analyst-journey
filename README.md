@@ -105,4 +105,43 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** [NetworkChuck – Python RIGHT NOW!!] · [NetworkChuck – Linux for Hackers]
 
+### Day 05 — 2026-06-16
+**Topic:** Linux system & network commands + Python conditionals
+
+**What I learned:**
+
+**Linux — System & Network Reconnaissance Commands:**
+| Command | What it does |
+|---------|-------------|
+| `whoami` | shows current logged-in user |
+| `id` | shows user ID, group ID, and group memberships |
+| `hostname` | displays the system's hostname |
+| `uname` | shows system/kernel information |
+| `ifconfig` / `ip` | displays network interface configuration |
+| `netstat` / `ss` | shows active network connections and listening ports |
+| `ps` | lists running processes |
+| `who` | shows who is currently logged into the system |
+| `env` | displays environment variables |
+| `lsblk` | lists block devices (drives, partitions) |
+| `lsusb` | lists connected USB devices |
+| `lsof` | lists open files and which processes opened them |
+| `lspci` | lists PCI hardware devices |
+
+**Linux — User & Group Management:**
+- Used `man` and `--help` to read command documentation directly in the terminal
+- Created a new user and assigned specific permissions
+- Modified user permissions after creation
+- Deleted a user account
+- Created a new group and understood group-based access control
+
+**Python — Conditionals:**
+- Learned `if / elif / else` logic
+- Extended the Barista program: added a menu with different prices per item
+- Used **logical operators** (`and`, `not`) to block specific customers from ordering
+- Combined input validation with conditional logic for access control
+
+**Key takeaway:** Commands like `netstat`, `ss`, `ps`, and `lsof` are exactly what a SOC analyst runs first when investigating a compromised Linux host — they answer "what's running, what's connected, and what's open" in seconds. User/group management is also core to understanding privilege escalation attacks later.
+
+**Resource:** NetworkChuck – Linux for Hackers (continued) · NetworkChuck – Python Course (continued)
+
 ---
