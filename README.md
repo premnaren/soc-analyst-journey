@@ -144,4 +144,31 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** NetworkChuck – Linux for Hackers (continued) · NetworkChuck – Python Course (continued)
 
+### Day 06 — 2026-06-17
+**Topic:** Linux package management + Git/Python package installation
+
+**What I learned:**
+
+**Linux Package Managers:**
+| Tool | What it does |
+|------|-------------|
+| `apt` | high-level package manager for Debian/Ubuntu — install, update, remove software |
+| `dpkg` | low-level package manager — handles `.deb` files directly, what `apt` runs underneath |
+| `aptitude` | alternative front-end to `apt` — more detailed dependency resolution view |
+| `snap` | universal package manager — sandboxed apps, works across Linux distros |
+
+- Understood the difference between **high-level** (`apt`, `aptitude`) and **low-level** (`dpkg`) package managers
+- Learned how `apt` resolves dependencies automatically, while `dpkg` requires manual dependency handling
+- Practiced installing, updating, and removing packages using `apt install`, `apt update`, `apt remove`
+- Explored `snap` as a containerized alternative — useful when a package isn't in the standard repos
+
+**Git & Python Package Management:**
+- Used **Git** to clone repositories and pull external tools/code
+- Used **pip** (Python's package manager) to install Python libraries
+- Understood the parallel: `apt` manages system software, `pip` manages Python libraries, `git` manages source code/version control
+
+**Key takeaway:** Package management is a core Linux security skill — understanding what's installed on a system (and via which manager) is essential during incident response. Attackers sometimes install malicious packages disguised as legitimate ones, so knowing how `dpkg -l` or `apt list --installed` works helps spot anomalies on a compromised host.
+
+**Resource:** NetworkChuck — Linux for Hackers (continued)
+
 ---
