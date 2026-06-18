@@ -171,4 +171,25 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** NetworkChuck — Linux for Hackers (continued)
 
+### Day 07 — 2026-06-18
+**Topic:** Linux file search tools — which, find, locate (HackTheBox module)
+
+**What I learned:**
+
+| Tool | Purpose |
+|------|---------|
+| `which` | finds the path to an executable — checks if a tool like Python, cURL, netcat, wget exists on the system |
+| `find` | powerful filtering search — by type, name, owner, size, modification date; supports running commands on results |
+| `locate` | fast search using a pre-built database (`updatedb`) — much quicker than `find` but fewer filter options |
+
+- `which python` → confirms a program exists and shows its exact path
+- `find` syntax: `find <location> <options>` — can combine filters like `-type f`, `-name *.conf`, `-user root`, `-size +20k`, `-newermt <date>`
+- `-exec` lets `find` run a command (like `ls -al`) on every result it finds
+- `2>/dev/null` redirects errors to the null device so they don't clutter output
+- `locate` requires running `sudo updatedb` first to refresh its file index, then searches that database instead of the live filesystem
+
+**Key takeaway:** `find` with filters like `-user root -newermt <date>` is exactly how you'd hunt for recently modified config files during an incident — a classic technique for spotting unauthorized changes or backdoors planted on a compromised host. `which` is the fastest way to confirm what tools an attacker (or defender) has available on a system.
+
+**Resource:** HackTheBox Academy — Linux Fundamentals module
+
 ---
