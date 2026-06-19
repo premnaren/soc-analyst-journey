@@ -192,4 +192,20 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** HackTheBox Academy — Linux Fundamentals module
 
+### Day 08 — 2026-06-19
+**Topic:** Lists in python
+
+**What I learned:**
+
+| Concept | Description |
+| :--- | :--- |
+| **List** | A collection that stores multiple items in a single variable |
+| **Indexing** | Accessing elements using positions starting from 0 |
+| **Negative Indexing** | Accessing elements from the end using -1, -2, etc. |
+
+**Key Takeaway:** Lists are one of the most important Python data structures for cybersecurity. Whether analyzing logs, handling threat intelligence feeds, or automating incident response workflows, SOC analysts frequently use lists to collect, filter, and process security-related data efficiently.
+
+
+**Resource:** [NetworkChuck – Python RIGHT NOW!!]
+
 ---
