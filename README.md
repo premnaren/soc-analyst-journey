@@ -208,4 +208,39 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** [NetworkChuck – Python RIGHT NOW!!]
 
+# Day 09 — 2026-07-01
+## Topic: Networking Devices (CompTIA Network+ N10-009)
+
+### What I Learned: Networking Devices
+
+| Device | OSI Layer | Key Concept / Description |
+| :--- | :--- | :--- |
+| **Router** | Layer 3 (Network) | Routes traffic between different IP subnets (LAN to WAN, copper, or fiber). Identifies next hops using IP addresses. |
+| **Layer 3 Switch** | Layer 2 & 3 | An enterprise switch containing both switching hardware and routing functionality within the same physical device. |
+| **Switch** | Layer 2 (Data Link) | Forwards traffic based on destination MAC addresses using dedicated hardware called ASICs. Often supports **Power over Ethernet (PoE)**. |
+| **Firewall** | Layer 3 & Above | Traditional types filter via TCP/UDP ports. Modern **Next-Generation Firewalls (NGFW)** evaluate traffic at the application layer, manage VPN tunnels, and provide NAT. |
+| **IDS / IPS** | Layer 7 / Deep Packet | **IDS (Intrusion Detection)** alerts on known vulnerabilities/exploits (e.g., buffer overflows). **IPS (Intrusion Prevention)** actively blocks them before entry. |
+| **Load Balancer** | Layer 4 / Layer 7 | Distributes incoming network load across multiple physical servers. Features include TCP/SSL offloading, caching, and Quality of Service (QoS) traffic prioritization. |
+| **Proxy Server** | Layer 7 (Application) | Sits between users and the internet to make requests on their behalf. Provides URL filtering, malicious content scanning, and caching. Can be explicit or transparent. |
+| **NAS vs. SAN** | Storage Network | **NAS (Network Attached Storage)** offers file-level access (reads/writes entire files). **SAN (Storage Area Network)** offers Block-Level access (modifies only changed blocks). |
+| **Access Point (AP)** | Layer 2 (Data Link) | Bridges communication between wireless networks (802.11) and wired networks (802.3). Operates purely as a wireless bridge. |
+| **Wireless LAN Controller** | Management Plane | Provides a "single pane of glass" centralized interface to deploy, manage, secure, and monitor multiple enterprise wireless access points. |
+
+### Practical Concepts & Implementations
+* **ASIC (Application-Specific Integrated Circuit):** Specialized hardware processing inside enterprise switches allowing wire-speed forwarding decision-making.
+* **SSL/TCP Offloading:** Utilizing a load balancer to handle intensive encryption/decryption tasks to free up compute cycles on underlying backend application servers.
+* **Block-Level Storage Access:** Using SAN network fabrics to maximize efficiency when interacting with large data files by skipping full-file transfers across network constraints.
+
+### SOC Relevance
+Network device infrastructure is the absolute baseline of security monitoring operations:
+* **Log Aggregation:** Firewalls, Proxies, and IDS/IPS endpoints serve as primary log telemetry pipelines into SIEM platforms for spotting adversary trends.
+* **Network Segmentation:** Routers and firewalls establish boundary controls to isolate sensitive corporate subnets from public-facing infrastructure.
+* **Traffic Control analysis:** Knowing where traffic shifts (e.g., via Proxies or Load Balancers) helps analysts isolate anomalies, handle malicious out-of-bounds exfiltration, or parse load disruptions during active DDoS containment actions.
+
+> **Key Takeaway:** Every network device serves a distinct purpose in moving, optimizing, or protecting packets. A deep structural knowledge of where these devices live inside the data center topology dictates how security analysts ingest, parse, and troubleshoot security events during an incident lifecycle.
+
+***
+
+* **Resource:** Professor Messer – CompTIA Network+ N10-009 (Section 1.2: Networking Devices)
+* **Video Link:** [Networking Devices - CompTIA Network+ N10-009 - 1.2](http://www.youtube.com/watch?v=iqjj4ZSPV08)
 ---
