@@ -208,7 +208,7 @@ A structured documentation repository tracking my professional development towar
 
 **Resource:** [NetworkChuck – Python RIGHT NOW!!]
 
-# Day 09 — 2026-07-01
+### Day 09 — 2026-07-01
 ## Topic: Networking Devices (CompTIA Network+ N10-009)
 
 ### What I Learned: Networking Devices
